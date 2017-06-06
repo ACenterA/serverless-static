@@ -1,0 +1,29 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+   function frameLoaded() {
+     $("#http2").attr('src', $("#http2").attr('_src'));
+     
+   }
+   function frameCompleted() {
+   }
+</script>
+<style>
+.iframeh {
+  
+  overflow-y: hidden;
+}
+#width: 200px;
+#height: 200px;
+</style>
+
+</head>
+
+<body>
+<div style="float:left">
+<iframe id="http1" src="https://acentera.github.io/test/iframe_content.html?http1" onload="frameLoaded()" scrolling="no" class="iframeh" width="400px" height="300px" frameBorder="0"></iframe>
+<iframe id="http2" src="" _src="https://www.serverlesscdn.com/test/iframe_content.html?http2" onload="frameCompleted()" class="iframeh" scrolling="no" width="400" height="300px" frameBorder="0"></iframe>
+</div>
+</body>
+</html>
