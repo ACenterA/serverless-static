@@ -24,3 +24,44 @@ border: 1px solid #DAD1D1;}
 .entry-meta h4{display:inline-block;line-height:55px}
 .entry-meta h4 a{color:#878787;font-weight:normal;text-shadow:0 1px 0 #FFF;text-decoration:none;cursor:pointer}
 .entry-meta .author-meta{position:relative}
+
+.mimg {
+  width:75%;
+}
+
+.mimgsm {
+  width:50%;
+}
+
+.mimgsm1 {
+  width:65%;
+}
+
+.mimgsm3 {
+  width:300px;
+}
+
+.textcenter {
+  text-align:center;
+  margin:auto;
+}
+
+@media (max-width: 400px) {
+  .mimg {
+    width:90%;
+  }
+  .mimgsm {
+    width:70%;
+  }
+  .mimgsm1 {
+    width:65%;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .mimg {
+    width:80%;
+    width:70%;
+  }
+}

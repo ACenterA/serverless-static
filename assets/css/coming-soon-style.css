@@ -217,7 +217,7 @@ a:hover { text-decoration: none; }
 }
 
 .about-us_2 h3 {
-    margin: 0 40px 30px 50px;
+    margin: 0 40px 30px 10px;
     padding: 0 0 10px 0;
     border-bottom: 1px dotted #aaa;
     font-size: 36px;
@@ -441,7 +441,7 @@ footer a:hover { color: #aaa; }
 
     .contact-us form button { margin-left: 138px; }
 
-    #langsel { display:block; } 
+    #langsel { display:block; }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {

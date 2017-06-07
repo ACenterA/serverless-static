@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    jekyll-multiple-languages (2.0.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jekyll-multiple-languages
+
+BUNDLED WITH
+   1.15.1
